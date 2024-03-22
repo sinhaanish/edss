@@ -192,8 +192,8 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
-        "label": "Background Image",
+        "name": "imageAlt",
+        "label": "Image Alt",
         "multi": false
       },
       {
@@ -202,6 +202,32 @@
         "name": "pretitle",
         "label": "Pre Title",
         "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "pretitle",
+        "label": "Pre Title",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "titleType",
+        "label": "Title Type",
+        "value": "h3",
+        "options": [
+          {"name": "h2", "value": "h2"},
+          {"name": "h3", "value": "h3"},
+          {"name": "h4", "value": "h4"}
+        ]
       },
       {
         "component": "richtext",
