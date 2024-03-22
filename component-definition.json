@@ -146,8 +146,8 @@
                 "template": {
                   "name": "Teaser",
                   "model": "teaser",
-                  "title": "New Teaser",
-                  "titleType": "h3"
+                  "foreground_title": "New Teaser",
+                  "foreground_titleType": "h3"
                 }
               }
             }
